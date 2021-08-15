@@ -100,5 +100,3 @@ Set-AzsRegistration `
 -RegistrationName $RegistrationName `
 -UsageReportingEnabled:$true
  ```
- 
- 
