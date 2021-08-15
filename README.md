@@ -74,3 +74,5 @@ You can run the following commands to verify that your ASDK deployment is succes
 Enter-PSSession -ComputerName AzS-ERCS01 -ConfigurationName PrivilegedEndpoint
 Test-AzureStack
 ```
+
+
