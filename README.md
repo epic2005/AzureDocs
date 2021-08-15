@@ -3,5 +3,8 @@
 
 # Version Compatibility
 
+# Description
+Deploy-AzureStackonAzureVM.ps1 script prepares Storage Account and copy VHD file before you calling ARM Template
+
 
 
