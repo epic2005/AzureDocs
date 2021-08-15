@@ -152,4 +152,4 @@ We will go into the details of the configuration in our next articles on Azure S
 References:
 >
 > Yağmur Şahin GitHub: https://github.com/yagmurs/AzureStack-VM-PoC
-> Azure Docs: https://docs.microsoft.com/en-us/azure-stack/asdk/?view=azs-2008
+>  Azure Docs: https://docs.microsoft.com/en-us/azure-stack/asdk/?view=azs-2008
