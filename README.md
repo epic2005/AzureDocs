@@ -139,6 +139,7 @@ Set-AzsRegistration `
 
 After the command runs successfully, you will see the message that your environment has been successfully registered to Azure.
 
+![GitHub Logo](images/AAD register.png)
 
 After everything is completed, you can connect to https://adminportal.local.azurestack.external to the admin portal, and you can control the user portal by connecting to https://portal.local.azurestack.external.
 
