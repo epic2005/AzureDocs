@@ -147,6 +147,6 @@ After everything is completed, you can connect to https://adminportal.local.azur
 We will go into the details of the configuration in our next articles on Azure Stack Hub.
 
 References:
-
-Yağmur Şahin GitHub: https://github.com/yagmurs/AzureStack-VM-PoC
-Azure Docs: https://docs.microsoft.com/en-us/azure-stack/asdk/?view=azs-2008
+>
+> Yağmur Şahin GitHub: https://github.com/yagmurs/AzureStack-VM-PoC
+> Azure Docs: https://docs.microsoft.com/en-us/azure-stack/asdk/?view=azs-2008
