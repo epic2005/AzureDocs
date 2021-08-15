@@ -7,7 +7,7 @@
 Deploy-AzureStackonAzureVM.ps1 script prepares Storage Account and copy VHD file before you calling ARM Template
 
 ## Step by Step Guidance
-Step 1 - Download the Deploy-AzureStackonAzureVM.ps1 script
+### Step 1 - Download the Deploy-AzureStackonAzureVM.ps1 script
 
 Run the following PowerShell command to install the new installation script. This will also downloads required modules from powershell gallery.
 
@@ -15,4 +15,7 @@ Run the following PowerShell command to install the new installation script. Thi
 Find-Script Deploy-AzureStackonAzureVM | Install-Module -Force
 ```
 
+Can be run from Azure Cloudshell as well. :)
+
+### Step 2 - Run the Deploy-AzureStackonAzureVM.ps1 script
 
