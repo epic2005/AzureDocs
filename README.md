@@ -7,6 +7,10 @@ In this guide, we'll walk you experiencing a number of the amazing capabilities 
 ## Description
 Deploy-AzureStackonAzureVM.ps1 script prepares Storage Account and copy VHD file before you calling ARM Template
 
+## Prepaire for the Deployment
+国际版 AAD租户并且带有 Globaladmin权限
+
+
 ## Step by Step Guidance
 ### Step 1 - Download the Deploy-AzureStackonAzureVM.ps1 script
 
