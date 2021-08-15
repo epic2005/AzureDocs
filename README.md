@@ -143,6 +143,9 @@ After the command runs successfully, you will see the message that your environm
 
 After everything is completed, you can connect to https://adminportal.local.azurestack.external to the admin portal, and you can control the user portal by connecting to https://portal.local.azurestack.external.
 
+![GitHub Logo](images/admimportal.png)
+
+![GitHub Logo](images/userportal.png)
 
 We will go into the details of the configuration in our next articles on Azure Stack Hub.
 
