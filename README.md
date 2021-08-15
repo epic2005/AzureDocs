@@ -75,7 +75,7 @@ Enter-PSSession -ComputerName AzS-ERCS01 -ConfigurationName PrivilegedEndpoint
 Test-AzureStack
 ```
 
-![GitHub Logo](/image01.png)
+![GitHub Logo](images/image01.png)
 
 # Last Step
 As the last step in our ASDK configuration, you need to register your ASDK environment with Azure. This will allow you to use both Azure marketplace items and full features of Azure Stack. You can run the command below to register. Make sure to define your Azure Subscription ID and a uniqe-registration-name before running the command.
