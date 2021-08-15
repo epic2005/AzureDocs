@@ -77,9 +77,9 @@ Test-AzureStack
 
 ![GitHub Logo](images/image01.png)
 
+## Register AAD account for Azure Stack hub
+
 As the last step in our ASDK configuration, you need to register your ASDK environment with Azure. This will allow you to use both Azure marketplace items and full features of Azure Stack. You can run the command below to register. Make sure to define your Azure Subscription ID and a uniqe-registration-name before running the command.
-
-
  
 ```powershell
 Add-AzAccount -EnvironmentName "AzureCloud"
@@ -101,3 +101,16 @@ Set-AzsRegistration `
 -RegistrationName $RegistrationName `
 -UsageReportingEnabled:$true
  ```
+
+After the command runs successfully, you will see the message that your environment has been successfully registered to Azure.
+
+
+After everything is completed, you can connect to https://adminportal.local.azurestack.external to the admin portal, and you can control the user portal by connecting to https://portal.local.azurestack.external.
+
+
+We will go into the details of the configuration in our next articles on Azure Stack Hub.
+
+References:
+
+Yağmur Şahin GitHub: https://github.com/yagmurs/AzureStack-VM-PoC
+Azure Docs: https://docs.microsoft.com/en-us/azure-stack/asdk/?view=azs-2008
