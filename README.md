@@ -67,3 +67,10 @@ expand-archive az.zip `
 # Change to the tools directory.
 cd AzureStack-Tools-az
 ```
+
+You can run the following commands to verify that your ASDK deployment is successful:
+
+```powershell
+Enter-PSSession -ComputerName AzS-ERCS01 -ConfigurationName PrivilegedEndpoint
+Test-AzureStack
+```
