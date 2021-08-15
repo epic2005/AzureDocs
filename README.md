@@ -137,7 +137,7 @@ Set-AzsRegistration `
 -UsageReportingEnabled:$true
  ```
 
-After the command runs successfully, you will see the message that your environment has been successfully registered to Azure.
+After the command runs successfully, you will see the message that your environment has been successfully registered to Azure. :smile:
 
 ![GitHub Logo](images/AADregister.png)
 
