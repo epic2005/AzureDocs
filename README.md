@@ -8,7 +8,7 @@ In this guide, we'll walk you experiencing a number of the amazing capabilities 
 Deploy-AzureStackonAzureVM.ps1 script prepares Storage Account and copy VHD file before you calling ARM Template
 
 ## Prepaire for the Deployment
-* 国际版 AAD租户 - 并且带有 Globaladmin权限
+* Gloabl Azure AD tenant with Gloabladmin permission
 
 
 ## Step by Step Guidance
