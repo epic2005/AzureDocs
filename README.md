@@ -54,6 +54,7 @@ Get-Module -Name "Azs*" -ListAvailable
 We can now configure a GitHub repository hosting PowerShell modules in the ASDK Host VM to manage resources and deploying them to Azure Stack. 
 
 ```powershell
+# Download the tools archive.
 invoke-webrequest `
   https://github.com/Azure/AzureStack-Tools/archive/az.zip `
   -OutFile az.zip
