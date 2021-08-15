@@ -1,5 +1,5 @@
 # Azure Stack on Azure
-Provision the Azure Stack Hub Development Kit (ASDK) on Azure
+Creates new VM and install prerequisites for Azure Stack Hub Development kit (ASDK) to run Proof of Concept.
 
 ## Welcome to the Azure Stack Hub on Azure Step by Step Guide!
 In this guide, we'll walk you experiencing a number of the amazing capabilities within Azure Stack Hub 2012.
@@ -150,6 +150,6 @@ After everything is completed, you can connect to https://adminportal.local.azur
 We will go into the details of the configuration in our next articles on Azure Stack Hub.
 
 References:
->
 > Yağmur Şahin GitHub: https://github.com/yagmurs/AzureStack-VM-PoC
->  Azure Docs: https://docs.microsoft.com/en-us/azure-stack/asdk/?view=azs-2008
+>
+> Azure Docs: https://docs.microsoft.com/en-us/azure-stack/asdk/?view=azs-2008
