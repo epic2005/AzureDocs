@@ -30,6 +30,41 @@ Once script downloaded from PowerShell gallery, run the following command to loc
 Get-Help Deploy-AzureStackonAzureVM.ps1 -Examples
 ```
 
+If your scenario does not require customization, simply run Deploy-AzureStackonAzureVM.ps1 without any parameters. if you provide any parameters, It will use default parameters and will prompt for local Administrator password for the new VM.
+
+#### Example 1
+
+```powershell
+Deploy-AzureStackonAzureVM.ps1 -Verbose
+```
+
+#### Example 2
+
+```powershell
+Deploy-AzureStackonAzureVM -ResourceGroupName myResourceGroup -Region 'West Europe' -VirtualMachineSize 'Standard_E32s_v3'
+```
+
+Note: The execution of the script takes appoximately 20 mins or so. Please do NOT close the browser or cloudshell window during execution.
+
+### Step 3 - Starting Azure Stack Hub deployment
+Once the VM deployed logon to VM using 'Administrator' username and the password provided during the deployment. There are 3 shortcut on the desktop to start ASDK deployment;
+
+* 'Install-ASDK' allow s you to select between ADFS based or AAD (Azure Ad)
+* 'ADFS_Install-ASDK' for ADFS based deployment
+* 'AAD_Install-ASDK' for Azure AD based deployment
+
+
+**Note**: The patch for the No scripts to "Install-ASDK"  "ADFS_Install-ASDK" "AAD_Install-ASDK"
+
+Sign into AzS-HOST1.
+Create a post-config.ps1 and copy the text from here to it - https://raw.githubusercontent.com/yagmurs/AzureStack-VM-PoC/master/scripts/post-config.ps1
+Run with
+
+```powershell
+.\post-config.ps1 -Username Administrator -Branch master -ASDKImage
+```
+
+
 ## Install PowerShell commands for Azure Stack hub
 
 You can install PowerShell commands for Azure Stack through the PowerShell Gallery.
