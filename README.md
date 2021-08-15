@@ -20,3 +20,8 @@ Can be run from Azure Cloudshell as well. :)
 
 ### Step 2 - Run the Deploy-AzureStackonAzureVM.ps1 script
 
+Once script downloaded from PowerShell gallery, run the following command to locate some examples.
+
+```powershell
+Get-Help Deploy-AzureStackonAzureVM.ps1 -Examples
+```
