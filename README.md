@@ -29,3 +29,34 @@ Once script downloaded from PowerShell gallery, run the following command to loc
 ```powershell
 Get-Help Deploy-AzureStackonAzureVM.ps1 -Examples
 ```
+
+## Install PowerShell commands for Azure Stack hub
+
+```powershell
+Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
+```
+
+```powershell
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+ 
+Install-Module -Name Az.BootStrapper -Force -AllowPrerelease
+Install-AzProfile -Profile 2019-03-01-hybrid -Force
+Install-Module -Name AzureStack -RequiredVersion 2.0.2-preview -AllowPrerelease
+
+Get-Module -Name "Az*" -ListAvailable
+Get-Module -Name "Azs*" -ListAvailable
+```
+
+```powershell
+invoke-webrequest `
+  https://github.com/Azure/AzureStack-Tools/archive/az.zip `
+  -OutFile az.zip
+ 
+# Expand the downloaded files.
+expand-archive az.zip `
+  -DestinationPath . `
+  -Force
+ 
+# Change to the tools directory.
+cd AzureStack-Tools-az
+```
