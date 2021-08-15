@@ -56,9 +56,9 @@ Once the VM deployed logon to VM using 'Administrator' username and the password
 
 **Note**: The patch for the No scripts to "Install-ASDK"  "ADFS_Install-ASDK" "AAD_Install-ASDK"
 
-Sign into AzS-HOST1.
-Create a post-config.ps1 and copy the text from here to it - https://raw.githubusercontent.com/yagmurs/AzureStack-VM-PoC/master/scripts/post-config.ps1
-Run with
+1. Sign into AzS-HOST1.
+2. Create a post-config.ps1 and copy the text from here to it - https://raw.githubusercontent.com/yagmurs/AzureStack-VM-PoC/master/scripts/post-config.ps1
+3. Run with
 
 ```powershell
 .\post-config.ps1 -Username Administrator -Branch master -ASDKImage
