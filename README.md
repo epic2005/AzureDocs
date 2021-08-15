@@ -32,9 +32,13 @@ Get-Help Deploy-AzureStackonAzureVM.ps1 -Examples
 
 ## Install PowerShell commands for Azure Stack hub
 
+You can install PowerShell commands for Azure Stack through the PowerShell Gallery.
+
 ```powershell
 Set-PSRepository -Name "PSGallery" -InstallationPolicy Trusted
 ```
+
+After that, you can install the latest Azure Stack PowerShell module to the ASDK host by running the commands below.
 
 ```powershell
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -46,6 +50,8 @@ Install-Module -Name AzureStack -RequiredVersion 2.0.2-preview -AllowPrerelease
 Get-Module -Name "Az*" -ListAvailable
 Get-Module -Name "Azs*" -ListAvailable
 ```
+
+We can now configure a GitHub repository hosting PowerShell modules in the ASDK Host VM to manage resources and deploying them to Azure Stack. 
 
 ```powershell
 invoke-webrequest `
