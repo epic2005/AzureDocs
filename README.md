@@ -1,5 +1,5 @@
 # Azure Stack on Azure
-为 Azure Stack Hub Development kit (ASDK) 在Azure上创建准备 POC验证环境
+Provision the Azure Stack Hub Development Kit (ASDK) on Azure
 
 ## Welcome to the Azure Stack Hub on Azure Step by Step Guide!
 In this guide, we'll walk you experiencing a number of the amazing capabilities within Azure Stack Hub 2012.
