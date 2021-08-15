@@ -77,3 +77,28 @@ Test-AzureStack
 
 ![GitHub Logo](/image01.png)
 
+# Last Step
+As the last step in our ASDK configuration, you need to register your ASDK environment with Azure. This will allow you to use both Azure marketplace items and full features of Azure Stack. You can run the command below to register. Make sure to define your Azure Subscription ID and a uniqe-registration-name before running the command.
+
+Add-AzAccount -EnvironmentName "AzureCloud"
+ 
+Register-AzResourceProvider -ProviderNamespace Microsoft.AzureStack
+ 
+Import-Module C:\AzureStack-Tools-az\Registration\RegisterWithAzure.psm1
+ 
+Get-AzSubscription -SubscriptionID "<strong><subscription ID></strong>" | Select-AzSubscription
+ 
+```powershell
+# Register Azure Stack
+$AzureContext = Get-AzContext
+$CloudAdminCred = Get-Credential -UserName AZURESTACK\CloudAdmin -Message "Enter the credentials to access the privileged endpoint."
+$RegistrationName = "<strong><unique-registration-name></strong>"
+Set-AzsRegistration `
+-PrivilegedEndpointCredential $CloudAdminCred `
+-PrivilegedEndpoint AzS-ERCS01 `
+-BillingModel Development `
+-RegistrationName $RegistrationName `
+-UsageReportingEnabled:$true
+ ```
+ 
+ 
