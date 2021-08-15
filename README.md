@@ -75,4 +75,5 @@ Enter-PSSession -ComputerName AzS-ERCS01 -ConfigurationName PrivilegedEndpoint
 Test-AzureStack
 ```
 
+![GitHub Logo](/images/logo.png)
 
