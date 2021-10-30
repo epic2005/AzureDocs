@@ -155,4 +155,4 @@ References:
 >
 > Azure Docs: https://docs.microsoft.com/en-us/azure-stack/asdk/?view=azs-2008
 >
-> https://www.devcloudops.com/2020/12/16/azure-stack-hub-development-kit-asdk-installation-and-configuration-on-azure-vm/
+> DevCloudOps: https://www.devcloudops.com/2020/12/16/azure-stack-hub-development-kit-asdk-installation-and-configuration-on-azure-vm/
