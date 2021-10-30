@@ -53,9 +53,9 @@ Once the VM deployed logon to VM using 'Administrator' username and the password
 * 'ADFS_Install-ASDK' for ADFS based deployment
 * 'AAD_Install-ASDK' for Azure AD based deployment
 
-After that, it takes about 10 hours to complete the setup and 310 steps :)) During this time, your VM may restart several times. But the installation will continue. If you want to monitor the deployment progress, sign in as azurestack\AzureStackAdmin after the ASDK host restarts.
+**Note1**: After that, it takes about 10 hours to complete the setup and 310 steps :)) During this time, your VM may restart several times. But the installation will continue. If you want to monitor the deployment progress, sign in as azurestack\AzureStackAdmin after the ASDK host restarts.
 
-**Note**: The patch for the No scripts to "Install-ASDK"  "ADFS_Install-ASDK" "AAD_Install-ASDK"
+**Note2**: The patch for the No scripts to "Install-ASDK"  "ADFS_Install-ASDK" "AAD_Install-ASDK"
 
 1. Sign into AzS-HOST1 with "Administrator".
 2. Create a post-config.ps1 and copy the text from here to it - https://raw.githubusercontent.com/yagmurs/AzureStack-VM-PoC/master/scripts/post-config.ps1
