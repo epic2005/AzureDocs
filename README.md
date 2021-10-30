@@ -53,6 +53,7 @@ Once the VM deployed logon to VM using 'Administrator' username and the password
 * 'ADFS_Install-ASDK' for ADFS based deployment
 * 'AAD_Install-ASDK' for Azure AD based deployment
 
+After that, it takes about 10 hours to complete the setup and 310 steps :)) During this time, your VM may restart several times. But the installation will continue. If you want to monitor the deployment progress, sign in as azurestack\AzureStackAdmin after the ASDK host restarts.
 
 **Note**: The patch for the No scripts to "Install-ASDK"  "ADFS_Install-ASDK" "AAD_Install-ASDK"
 
